@@ -33,7 +33,6 @@ Imagine you are a front-end designer and you want to integrate the data from a b
   </script></code>
   
 3) In case you enter a metric that is frequently updated you can add the following line:
-
  
 <code><script>
      setInterval(function(){
