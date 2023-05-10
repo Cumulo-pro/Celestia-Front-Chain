@@ -18,7 +18,7 @@ Celestia Front-Chain extracts data from two sources:
 With this small framework we aim to solve the development time and infrastructure for publishing blockchain data on the web. Making it easy for designers to create content with a few lines of html code.
 
 <h3>A quick example of what we can do</h3>
-Imagine you are a front-end designer and you want to integrate the data from a blockchain into a fun and attractive Dashboard for the public. You don't have to worry about anything but the design. Enter the necessary functions to display the data in the header of the page and the id to the html elements with which you want to associate the metric values. That's it! You are ready to go!
+Imagine you are a front-end designer and you want to integrate the data from a blockchain into a fun and attractive Dashboard for the public. You don't have to worry about anything but the design. Enter the necessary functions to display the data in the header of the page and the id to the html elements with which you want to associate the metric values. That's it! Are you ready to go?
 
 <h3>Getting Started</h3>
 1) Add the following code inside the header <head>:
@@ -46,9 +46,8 @@ Imagine you are a front-end designer and you want to integrate the data from a b
 
   <code>&lt;p&gt;Celestia Blockspacerace Height: &lt;span id=&quot;block&quot;&gt;&lt;/span&gt;&lt;/p&gt;</code>
 
-  You can see the full example <a href="https://celestia.frontchain.cumulo.pro/">here</a>.
+  You can see the full example <a href="https://celestia.frontchain.cumulo.pro/basic_example_frontchain.html">here</a>.
 
-<img width="952" alt="image" src="https://github.com/Cumulo-pro/Celestia-Front-Chain/assets/2853158/3f0ec551-f783-4f7b-a9a6-7902888bdd8d">
 
 
   <h3>Package</h3>
@@ -92,7 +91,8 @@ This way the designer can get the data from the blockchain without having any kn
 In addition to displaying the data we can create different ways to interact with the blockchain metrics, such as sending forms with data requests, adapting the blockchain metrics to fun ways of displaying the information, such as animations, element positions, etc...
 
 For a more complete demonstration please visit our example <a href="https://celestia.frontchain.cumulo.pro/">Dashboard</a>.
-
+<img width="952" alt="image" src="https://github.com/Cumulo-pro/Celestia-Front-Chain/assets/2853158/3f0ec551-f783-4f7b-a9a6-7902888bdd8d">
+	
 <h2 id="metrics">Métrics celestia Test </h2>
 <h3>Metrics from Prometheus - get_prometheus.php</h3>
 
