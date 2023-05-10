@@ -44,7 +44,7 @@ Imagine you are a front-end designer and you want to integrate the data from a b
 
 3) Add the id attribute with the name of the function to the tag you want to use to display the metric value:
 
-  <code><p>Celestia Blockspacerace Height: <span id="block"></span></p></code>
+  <code><<p>>Celestia Blockspacerace Height: <span id="block"></span></p></code>
 
   You can see the full example <a href="https://celestia.frontchain.cumulo.pro/">here</a>.
 
