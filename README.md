@@ -184,3 +184,23 @@ For a more complete demonstration please visit our example <a href="https://cele
     	<td><strong>Get RPC status: </strong><span id="get_rpc_status"></span></span></td><td>Tests if the RPC node we are connected to is synchronised and returns a green colour, or red if it is not.</td></td><td><code>rpc_data("get_rpc_status","blockspacerace");</code></td><td><pre>id="get_rpc_status"</pre></td>
     </tr>
 </table>
+
+<h3>Metrics from antoher RPC - get-other-rpc.php</h3>
+<h4>Always with RPC URL requests</h4>
+<table>
+	<tr>
+   	  <th>Data</th><th width="200">Description</th><th>Funtion</th><th>Id</th>
+    </tr>
+ 	<tr>
+   	  <td><strong>Get test RPC:<br> </strong><span id="get_test_rpc"></span></td><td width="200">Returns status of the RPC server </td></td><td><code>another_rpc_data("get_test_rpc","https://celestia-testnet-rpc.swiss-staking.ch/");</code></td><td><pre>id="get_test_rpc"</pre></td>
+    </tr>
+    <tr>
+   	  <td><strong>Get moniker RPC:<br> </strong><span id="get_moniker_rpc"></span></td><td width="200">Returns moniker of the RPC server </td></td><td><code>another_rpc_data("get_moniker_rpc","https://celestia-testnet-rpc.swiss-staking.ch/");</code></td><td><pre>id="get_test_rpc"</pre></td>
+    </tr>
+    <tr>
+   	  <td><strong>Get chain RPC:<br> </strong><span id="get_chain_rpc"></span></td><td width="200">Returns chain-is of the RPC server </td></td><td><code>another_rpc_data("get_chain_rpc","https://celestia-testnet-rpc.swiss-staking.ch/");</code></td><td><pre>id="get_chain_rpc"</pre></td>
+    </tr>
+    <tr>
+   	  <td><strong>Get tx_index RPC:<br> </strong><span id="get_tx_index_rpc"></span></td><td width="200">Returns tx_index state of the RPC server </td></td><td><code>another_rpc_data("get_tx_index_rpc","https://celestia-testnet-rpc.swiss-staking.ch/");</code></td><td><pre>id="get_tx_index_rpc"</pre></td>
+    </tr>
+ </table>
