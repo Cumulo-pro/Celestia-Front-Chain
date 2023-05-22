@@ -59,6 +59,20 @@ var request = new XMLHttpRequest();
          }
          request.send();		
 }
+function another_rpc_data (data,rpc) {
+var request = new XMLHttpRequest();
+         request.open("GET", "get_other_rpc.php?dato="+data+"&rpc="+rpc, true);
+		  async: false; // La petición es síncrona
+		 cache: false; // No queremos usar la caché del navegador
+         request.onreadystatechange = function()
+         {
+             if (request.readyState == 4 && request.status == 200)
+             {
+                 document.getElementById(data).innerHTML = request.responseText;
+		     }
+         }
+         request.send();		
+}
 
 
 
